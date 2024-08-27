@@ -17,5 +17,9 @@
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
     "noFallthroughCasesInSwitch": false
-  }
+  },
+  "include": [
+    "**/*",
+    "src/modules/products.module.ts" // Asegúrate de que esta ruta sea correcta
+  ]
 }
